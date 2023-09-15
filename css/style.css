@@ -100,7 +100,7 @@
 .p-hero {
     left: 0;
     right: 0;
-    top: 90px;
+    top: 140px;
 }
 
 .p-down-right {
@@ -131,22 +131,20 @@
 
 a {
    text-decoration: none;
-   font-size: 1.1rem;
 }
 
 h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
     color: var(--color-font-black);
     font-weight: 600;
 }
 
 h3, p {
-    font-size: 1.1rem;
     color: var(--color-font-black);
 }
 
 p {
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
 .container {
@@ -193,7 +191,7 @@ div.nav-button-layout>a {
 .bg-hero {
     background-color: var(--color-bg-blue);
     width: 100%;
-    height: 35vw;
+    height: 800px;
 }
 
 div.container>h1 {
@@ -215,7 +213,7 @@ div.hero-button-layout>a {
 
 a.hero-button-layout>i {
     color: var(--color-font-black);
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .hero-img {
