@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
@@ -12,18 +13,53 @@
 <body>
     <!--navbar and hero-->
     <header>
-        <nav class="flex-wrap">
-            <div class="nav-right-side">
+        <!--navbar-->
+        <nav class="flex-wrap flex-space-between flex-center">
+            <div class="nav-side flex-wrap flex-start">
+                <img src="img/logo-small.png" alt="dropbox-logo">
                 <div>
-                    <img src="img/logo-small.png" alt="dropbox-logo">
+                  <a class="nav-a" href="#">Perchè Dropbox</a>
+                  <a class="nav-a" href="#">Funzioni</a>
+                  <a class="nav-a" href="#">Piani e Prezzi</a>
                 </div>
-                <div>
-                  <a href="">Perchè Dropbox</a>
-                  <a href="">Funzioni</a>
-                  <a href="">Piani e Prezzi</a>
+            </div>
+            <div class="nav-side flex-wrap flex-end">
+                <a class="nav-a" href="#">Supporto</a>
+                <a class="nav-a" href="#">Contatta l'ufficio vendite</a>
+                <a class="nav-a" href="#">Accedi</a>
+                <div class="nav-button-layout">
+                    <a class="bg-botton-blue" href="#">Inizia</a>
                 </div>
             </div>
         </nav>
+        <!--hero-->
+        <div class="p-relative">
+            <div class="bg-hero"></div>
+            <div class="container p-absolute p-hero">
+                <h1>
+                    Tutto ciò che ti serve per il lavoro, in un unico posto
+                </h1>
+                <div class="flex-wrap align-flex-start">
+                    <div class="hero-text">
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <div class="hero-button-layout">
+                            <a class="bg-botton-blue" href="free-trial-start-button">
+                                Inizia la tua prova gratuita
+                            </a>
+                        </div>
+                        <p> Annulla in qualsiasi momento</p>
+                        <a class="d-inline-block hero-button-layout" href="#">
+                            <i class="fa-solid fa-arrow-down"></i> 
+                        </a>
+                    </div>
+                    <div class="hero-img">
+                        <img src="img/jumbo.png" alt="app-layout-demo">
+                    </div>
+                </div>
+            </div> 
+        </div>
     </header>
     <!--middle sections-->
     <main></main>
