@@ -114,4 +114,27 @@
     z-index: 3;
 }
 
+/*miscellaneous*/
+
+.debug {
+    border: 1px solid var(--bg-icon-grey);
+}
+
+h3 {
+    font-size: 0.6rem;
+    color: var(--color-font-black);
+
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/*navbar-and-hero*/
+
+.nav-right-side {
+    width: 50%;
+    
+}
 
