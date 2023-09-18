@@ -7,9 +7,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+html {
+    scroll-behavior: smooth;
 }
 
 /*root-palette*/
@@ -38,6 +37,7 @@
 <i class="fa-solid fa-share-nodes"></i> --share-nodes
 <i class="fa-solid fa-check"></i> --check
 <i class="fa-solid fa-angle-down"></i> --angle-down
+<i class="fa-solid fa-angle-up"></i> --angle-up
 <i class="fa-solid fa-sort-up"></i> --short-up
 <i class="fa-solid fa-earth-americas"></i> --world 
 
@@ -133,23 +133,40 @@ a {
    text-decoration: none;
 }
 
+h1, h2, p, label {
+    color: var(--color-font-black);
+}
+
 h1 {
     font-size: 5rem;
     color: var(--color-font-black);
     font-weight: 600;
 }
 
-h3, p {
-    color: var(--color-font-black);
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2rem;
 }
 
 p {
     line-height: 1.5;
 }
 
+li {
+    list-style: none;
+}
+
 .container {
     max-width: 60%;
     margin: 0 auto;
+}
+
+.container-padding {
+    padding: 0px 150px;
 }
 
 .bg-botton-blue {
@@ -192,6 +209,7 @@ div.nav-button-layout>a {
     background-color: var(--color-bg-blue);
     width: 100%;
     height: 800px;
+    margin-bottom: 200px;
 }
 
 div.container>h1 {
@@ -213,7 +231,7 @@ div.hero-button-layout>a {
 
 a.hero-button-layout>i {
     color: var(--color-font-black);
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .hero-img {
@@ -223,4 +241,49 @@ a.hero-button-layout>i {
 
 div.hero-img>img {
     width: 100%;
+}
+
+/*main*/
+
+.section-layout {
+    padding: 25px 0px;
+}
+
+/*plans*/
+
+div.section-layout>h2 {
+    padding-bottom: 70px;
+}
+
+.checkbox-layout {
+    padding-right: 60px;
+}
+
+/*footer*/
+
+footer {
+    background-color: var(--color-font-black);
+    color: var(--color-bg-white);
+    padding: 120px 0px 50px;
+}
+
+.list-layout {
+    padding: 0px 85px 150px 0px;
+}
+
+div.list-layout>h3 {
+    padding-bottom: 35px;
+}
+
+div.list-layout>ul>li {
+    padding-bottom: 25px;
+}
+
+.footer-hr {
+    border-top: 2px solid var(--color-square-grey);
+    padding: 30px;
+}
+
+.language-selection {
+    width: 150px;
 }
