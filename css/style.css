@@ -276,7 +276,7 @@ div.hero-img>img {
 
 /*main*/
 
-/*plans*/
+/*Plans*/
 
 .section-layout {
     padding: 30px 0px;
@@ -351,7 +351,7 @@ div.bottom-card-infos>span {
     padding-left: 80px;
 }
 
-/*contact-partner*/
+/*Contact-a-Partner*/
 
 .contact-wrapper {
     padding: 100px 0px;
@@ -378,6 +378,25 @@ div.contact-img>img {
     color: var(--color-font-black);
     text-align: center;
     margin-top: 50px;
+}
+
+/*Dropbox Business features*/
+
+.feature-header {
+    padding-bottom: 40px;
+}
+
+.feature-wrapper {
+    width: calc(100% / 3 - 45px);
+    padding: 30px 0px;
+}
+
+.feature-img {
+    padding: 30px;
+}
+
+div.feature-img>img {
+    width: 100%;
 }
 
 /*footer*/
