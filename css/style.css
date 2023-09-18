@@ -18,7 +18,7 @@ html {
 	--color-bg-blue: #b4d0e7;
 	--color-button-blue: #0061ff;
 	--color-font-black: #000000;
-	--color-square-grey: #f5f5f5;
+	--color-square-grey: #e3e3e3;
 	--color-square-green: #a2d39b;
 	--color-square-velvet: #61082b;
 	--color-square-light-blue: #0093ce;
@@ -48,6 +48,14 @@ html {
 .flex-wrap {
     display: flex;
     flex-flow: row wrap;
+}
+
+.flex-stretch {
+    align-items: stretch;
+}
+
+.justify-flex-start {
+    justify-content: flex-start;
 }
 
 .flex-center {
@@ -160,6 +168,10 @@ li {
     list-style: none;
 }
 
+.debug {
+    border: 2px solid var(--color-square-grey);
+}
+
 .container {
     max-width: 60%;
     margin: 0 auto;
@@ -245,18 +257,42 @@ div.hero-img>img {
 
 /*main*/
 
+/*plans*/
+
 .section-layout {
     padding: 25px 0px;
 }
-
-/*plans*/
 
 div.section-layout>h2 {
     padding-bottom: 70px;
 }
 
-.checkbox-layout {
+.radio-layout {
     padding-right: 60px;
+}
+
+.plan-card-wrapper {
+    width: calc(100% / 3);
+}
+
+.plan-card-title {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid var(--color-square-grey);
+}
+
+.plan-card {
+   padding: 40px; 
+}
+
+.plan-card-hr {
+    width: 10px;
+    border-top: 2px solid var(--color-square-grey);
+    padding: 10px;
+}
+
+div.plan-card>* {
+    padding-bottom: 40px;
 }
 
 /*footer*/
