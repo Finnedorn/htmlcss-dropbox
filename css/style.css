@@ -157,6 +157,8 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 
 h5 {
@@ -313,11 +315,6 @@ div.plan-card-body>div.line-hr {
     padding-bottom: 50px;
 }
 
-div.card-infos-layout>h3 {
-    font-weight: 600;
-    padding-bottom: 20px;
-}
-
 div.card-infos-layout>span {
     padding-bottom: 10px;
 }
@@ -345,11 +342,6 @@ div.card-infos-layout>span {
    width: 70%;
 }
 
-div.bottom-card-infos>h3 {
-    font-weight: 600;
-    padding-bottom: 20px;
-}
-
 div.bottom-card-infos>span {
     padding-bottom: 40px;
 }
@@ -357,6 +349,35 @@ div.bottom-card-infos>span {
 .bottom-card-CTA {
     width: 30%;
     padding-left: 80px;
+}
+
+/*contact-partner*/
+
+.contact-wrapper {
+    padding: 100px 0px;
+}
+
+.contact-img {
+    width: 60%;
+}
+
+div.contact-img>img {
+    width: 100%;
+}
+
+.contact-text {
+    width: 40%;
+    padding: 50px 70px;
+}
+
+.contact-button {
+    width: 50%;
+    border: 2px solid var(--color-font-black);
+    padding: 10px 5px;
+    font-weight: 600;
+    color: var(--color-font-black);
+    text-align: center;
+    margin-top: 50px;
 }
 
 /*footer*/
@@ -369,10 +390,6 @@ footer {
 
 .list-layout {
     padding: 0px 85px 150px 0px;
-}
-
-div.list-layout>h3 {
-    padding-bottom: 35px;
 }
 
 div.list-layout>ul>li {
