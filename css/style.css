@@ -151,7 +151,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -202,6 +202,10 @@ i[class*=check] {
 
 .underlined-link {
     text-decoration: underline;
+}
+
+.underlined-link:hover {
+    color: var(--color-button-blue);
 }
 
 /*navbar*/
@@ -276,11 +280,16 @@ div.hero-img>img {
 
 /*main*/
 
-/*Plans*/
-
 .section-layout {
     padding: 30px 0px;
 }
+
+.cta-layout {
+    padding: 150px 0px;
+}
+
+/*Plans*/
+
 
 div.section-layout>h2 {
     padding-bottom: 70px;
@@ -346,7 +355,7 @@ div.bottom-card-infos>span {
     padding-bottom: 40px;
 }
 
-.bottom-card-CTA {
+.bottom-card-cta {
     width: 30%;
     padding-left: 80px;
 }
@@ -382,7 +391,7 @@ div.contact-img>img {
 
 /*Dropbox Business features*/
 
-.feature-header {
+.feature-title {
     padding-bottom: 40px;
 }
 
@@ -397,6 +406,35 @@ div.contact-img>img {
 
 div.feature-img>img {
     width: 100%;
+}
+
+/*squares*/
+
+/*free-trial*/
+
+.free-trial-bg {
+    background-color: var(--color-bg-blue);
+}
+
+.free-trial-text {
+    width: 70%;
+}
+
+div.free-trial-text>h2 {
+    color: var(--color-square-velvet);
+}
+
+.free-trial-cta{
+    width: 30%;
+    padding: 5px;
+}
+
+.free-trial-button {
+    width: 100%;
+    text-align: center;
+    color: var(--color-font-black); 
+    background-color: var(--color-bg-white);
+    padding: 15px; 
 }
 
 /*footer*/
