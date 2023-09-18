@@ -15,8 +15,8 @@
     <header>
         <!--navbar-->
         <nav class="flex-wrap flex-space-between flex-center">
-            <div class="nav-side flex-wrap flex-start">
-                <div class="logo-wrapper">
+            <div class="flex-wrap flex-start">
+                <div class="nav-logo-wrap">
                     <img src="img/logo-small.png" alt="dropbox-logo">
                 </div>
                 <div>
@@ -25,28 +25,28 @@
                   <a class="nav-a" href="#">Piani e Prezzi</a>
                 </div>
             </div>
-            <div class="nav-side-wrapper flex-wrap flex-end">
+            <div class="flex-wrap flex-end">
                 <a class="nav-a" href="#">Supporto</a>
                 <a class="nav-a" href="#">Contatta l'ufficio vendite</a>
                 <a class="nav-a" href="#">Accedi</a>
-                <div class="nav-button-wrapper">
+                <div class="nav-button-wrap">
                     <a class="bg-botton-blue" href="#">Inizia</a>
                 </div>
             </div>
         </nav>
         <!--hero-->
         <div class="p-relative">
-            <div class="bg-hero"></div>
+            <div class="hero-bg"></div>
             <div class="container-type-A p-absolute p-hero">
                 <h1>
                     Tutto ciò che ti serve per il lavoro, in un unico posto
                 </h1>
                 <div class="flex-wrap align-flex-start">
-                    <div class="hero-text-wrapper">
+                    <div class="hero-text-wrap">
                         <p>
                             Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
-                        <div class="hero-button-wrapper">
+                        <div class="hero-button">
                             <a class="bg-botton-blue" href="free-trial-start-button">
                                 Inizia la tua prova gratuita
                             </a>
@@ -56,7 +56,7 @@
                             <i class="fa-solid fa-arrow-down"></i> 
                         </a>
                     </div>
-                    <div class="hero-img-wrapper">
+                    <div class="hero-img-wrap">
                         <img src="img/jumbo.png" alt="app-layout-demo">
                     </div>
                 </div>
@@ -65,18 +65,18 @@
     </header>
     <!--middle sections-->
     <main>
-        <!--Plans-->
+        <!--plans-->
         <section id="piani" class="container-type-B">
             <!--find-your-plan-->
             <div class="section-layout">
                 <h2>
                     Trova il piano business che fa per te
                 </h2>
-                <div class="d-inline-block checkbox-layout">
+                <div class="d-inline-block radio-wrapper">
                     <input type="radio" name="fatturazione" value="mensile" checked>
                     <label for="radio">Fatturazione mensile</label>
                 </div>
-                <div class="d-inline-block radio-layout">
+                <div class="d-inline-block radio-wrapper">
                     <input type="radio" name="fatturazione" value="annuale">
                     <label for="radio">Fatturazione annuale</label>
                 </div> 
@@ -93,7 +93,7 @@
                     <!--card-body-->
                     <div class="plan-card-body">
                         <!--card plan type-->
-                        <div class="card-infos-layout">
+                        <div class="card-text-wrap">
                             <h3>Professional</h3>
                             <span class="d-block">
                                 <strong>
@@ -104,7 +104,7 @@
                                 /mese
                             </span>
                         </div>
-                        <ul class="card-infos-layout">
+                        <ul class="card-text-wrap">
                             <li class="card-list-icons">
                                 <i class="fa-solid fa-user"></i>
                                 1 utente
@@ -118,7 +118,7 @@
                                 Funzioni di produttività premium e condivisione file semplice e sicura
                             </li>
                         </ul>
-                        <div class="card-button">
+                        <div class="card-button-wrap">
                             <a class="bg-botton-blue" href="#">
                                 Prova gratis per 30 giorni
                             </a>
@@ -155,7 +155,7 @@
                     <!--card-body-->
                     <div class="plan-card-body">
                         <!--card plan type-->
-                        <div class="card-infos-layout">
+                        <div class="card-text-wrap">
                             <h3>Advanced</h3>
                             <span class="d-block">
                                 <strong>
@@ -166,7 +166,7 @@
                                 /utente/mese
                             </span>
                         </div>
-                        <ul class="card-infos-layout">
+                        <ul class="card-text-wrap">
                             <li class="card-list-icons">
                                 <i class="fa-solid fa-users"></i>
                                 3 o più utenti
@@ -180,7 +180,7 @@
                                 Soffisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
                             </li>
                         </ul>
-                        <div class="card-button">
+                        <div class="card-button-wrap">
                             <a class="bg-botton-blue" href="#">
                                 Prova gratis per 30 giorni
                             </a>
@@ -229,7 +229,7 @@
                     <!--card-body-->
                     <div class="plan-card-body">
                         <!--card plan type-->
-                        <div class="card-infos-layout">
+                        <div class="card-text-wrap">
                             <h3>Enterprise</h3>
                             <span class="d-block">
                                 <strong>
@@ -240,7 +240,7 @@
                                 -
                             </span>
                         </div>
-                        <ul class="card-infos-layout">
+                        <ul class="card-text-wrap">
                             <li class="card-list-icons">
                                 <i class="fa-solid fa-users"></i>
                                 10 o più utenti
@@ -255,17 +255,17 @@
                                 in una gestione su larga scala
                             </li>
                         </ul>
-                        <div class="card-button">
+                        <div class="card-button-wrap">
                             <a class="bg-botton-blue" href="#">
                                 Contattaci
                             </a>
                         </div>
-                        <span class="d-inline-block">
-                            oppure
+                        <div>
+                            <span>oppure</span>
                             <a class="underlined-link" href="#">
                                 acquista ora
                             </a>
-                        </span>
+                        </div>
                         <div class="line-hr"></div>
                         <div>
                             <h5>Punti Salienti del piano</h5>
@@ -295,20 +295,16 @@
                         <i class="fa-solid fa-building"></i>
                         <h4 class="d-inline-block">Team</h4>
                     </div>
-                    <div class="bottom-card-layout flex-wrap">
-                        <div class="bottom-card-infos">
+                    <div class="bottom-card-wrapper flex-wrap">
+                        <div class="bottom-card-text-wrap">
                             <h3>Enterprise</h3>
-                            <span class="d-block">
-                                <strong>
-                                    Contatta l'ufficio vendite per i prezzi
-                                </strong>
-                            </span>
+                            <h5>Contatta l'ufficio vendite per i prezzi</h5>
                             <p>
                                 Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.
                             </p>
                         </div>
-                        <div class="bottom-card-cta">
-                            <div class="card-button">
+                        <div class="bottom-card-cta-wrap">
+                            <div class="card-button-wrap">
                                 <a class="bg-botton-blue" href="#">
                                     Contatta l'ufficio vendite
                                 </a>
@@ -319,26 +315,26 @@
                 
             </div>    
         </section>
-        <!--Contact-a-Partner-->
+        <!--partners-->
         <section class="container-type-B section-layout">
           <div class="contact-wrapper flex-wrap">
-            <div class="contact-img">
-                <img src="img/partner.png" alt="contact-a-partner-photo">
-            </div>
-            <div class="contact-text">
-                <h3>Entra in contatto con un partner Dropbox</h3>
-                <p>
-                    Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tracui implementazione, integrazione, gestione e supporto continui.
-                </p>
-                <div class="contact-button">
-                    <a href="#">
-                        Trova un Partner
-                    </a>
+                <div class="contact-img-wrap">
+                    <img src="img/partner.png" alt="contact-a-partner-photo">
                 </div>
-            </div>
+                <div class="contact-text-wrap">
+                    <h3>Entra in contatto con un partner Dropbox</h3>
+                    <p>
+                        Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tracui implementazione, integrazione, gestione e supporto continui.
+                    </p>
+                    <div class="contact-button-wrap">
+                        <a href="#">
+                            Trova un Partner
+                        </a>
+                    </div>
+                </div>
           </div>  
         </section>
-        <!--Dropbox Business features-->
+        <!--business features-->
         <section class="container-type-B section-layout">
             <!--title-->
             <div class="feature-title">
@@ -348,7 +344,7 @@
             <div class="flex-wrap flex-space-between">
                 <!--switching-tools-->
                 <div class="feature-wrapper">
-                    <div class="feature-img">
+                    <div class="feature-img-wrap">
                         <img src="img/business-feature-switching-tools.png" alt="dropbox-switching-feature-graphic">
                     </div>
                     <div>
@@ -362,7 +358,7 @@
                 </div>
                 <!--send-files-->
                 <div class="feature-wrapper">
-                    <div class="feature-img">
+                    <div class="feature-img-wrap">
                         <img src="img/business-feature-send-files-it.png" alt="dropbox-send-files-feature-graphic">
                     </div>
                     <div>
@@ -376,7 +372,7 @@
                 </div>
                 <!--coordinate-->
                 <div class="feature-wrapper">
-                    <div class="feature-img">
+                    <div class="feature-img-wrap">
                         <img src="img/business-feature-coordinate-it.png" alt="dropbox-coordinate-feature-graphic">
                     </div>
                     <div>
@@ -390,7 +386,7 @@
                 </div>
                 <!--integrations-->
                 <div class="feature-wrapper">
-                    <div class="feature-img">
+                    <div class="feature-img-wrap">
                         <img src="img/business-feature-integrations-it.png" alt="dropbox-integration-feature-graphic">
                     </div>
                     <div>
@@ -404,7 +400,7 @@
                 </div>
                 <!--multi-device-->
                 <div class="feature-wrapper">
-                    <div class="feature-img">
+                    <div class="feature-img-wrap">
                         <img src="img/business-feature-multi-device.png" alt="dropbox-multi-device-feature-graphic">
                     </div>
                     <div>
@@ -418,7 +414,7 @@
                 </div>
                 <!--security-->
                 <div class="feature-wrapper">
-                    <div class="feature-img">
+                    <div class="feature-img-wrap">
                         <img src="img/business-feature-security.png" alt="dropbox-security-feature-graphic">
                     </div>
                     <div>
@@ -431,8 +427,8 @@
                     </div>
                 </div>
             </div>
-            <!--CTA-->
-            <div class="cta-layout section-layout">
+            <!--join-->
+            <div class="cta-layout">
                 <h2>
                     Più di 500.000 team utilizzano <br>
                     Dropbox Business
@@ -442,37 +438,36 @@
                 </a>
             </div>
         </section>
-        <!--squares-->
+        <!--brand-boxes-->
         <section>
-            <!--brand-boxes-->
             <div class="flex-wrap">
                 <!--brand-boxes-left-->
                 <div class="box-wrapper flex-wrap">
                     <div class="bg-box-green brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/designit.svg" alt="designit-logo">
                         </div>
                     </div>
                     <div class="bg-box-velvet brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/arizona_state_university.svg" alt="asu-logo">
                         </div>
                     </div>
                     <div class="bg-box-azure brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/university_of_florida.svg" alt="university-of-florida-logo">
                         </div>
                     </div>
                     <div class="bg-box-light-red brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/topps.svg" alt="topps-logo">
                         </div>
                     </div>
                 </div>
                 <!--box-text-->
                 <div class="box-wrapper flex-wrap">
-                    <div class="brand-box-text">
-                        <div class="box-text-logo">
+                    <div class="brand-box-text-wrapper">
+                        <div class="box-text-logo-wrap">
                             <img src="img/designit.svg" alt="designit-logo">
                         </div>
                         <div class="line-hr"></div>
@@ -489,39 +484,39 @@
                 <!--brand-boxes-right-->
                 <div class="box-wrapper flex-wrap">
                     <div class="bg-box-red brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/world_bicycle_relief.svg" alt="world-bicycle-relief-logo">
                         </div>
                     </div>
                     <div class="bg-box-blue brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/hearst_corp.svg" alt="hearst-corp-logo">
                         </div>
                     </div>
                     <div class="bg-box-dark-blue brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/lonely_planet.svg" alt="lonely-planet-logo">
                         </div>
                     </div>
                     <div class="bg-box-yellow brand-box flex-box-centered">
-                        <div class="brand-logo-wrapper">
+                        <div class="brand-logo-wrap">
                             <img src="img/clear_channel.svg" alt="clear-channel-logo">
                         </div>
                     </div>
                 </div>
             </div>
             <!--free trial-->
-            <div class="free-trial-bg">
+            <div class="trial-bg">
                 <div class="container-type-B">
                     <div class="cta-layout flex-wrap">
-                        <div class="free-trial-text">
+                        <div class="trial-text-wrap">
                             <h2>
                                 Porta Dropbox Business <br>
                                 nella tua azienda.
                             </h2>
                         </div>
-                        <div class="free-trial-cta">
-                            <div class="free-trial-button">
+                        <div class="trial-cta-wrap">
+                            <div class="trial-button-wrap">
                                 <a href="#">
                                     Inizia la tua prova gratuita
                                 </a>
@@ -531,15 +526,15 @@
                 </div>
             </div>
         </section>
-        <!--FAQ-->
+        <!--faq-->
         <section class="container-type-B">
             <div class="cta-layout">
-                <div class="faq-wrapper">
+                <div class="faq-wrap">
                     <h2>Domande frequenti</h2>
                 </div>
                 <div>
                     <div class="line-hr"></div>
-                    <div class="faq-wrapper flex-wrap flex-space-between">
+                    <div class="faq-wrap flex-wrap flex-space-between">
                         <h5>
                             Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
                         </h5>
@@ -548,7 +543,7 @@
                 </div>
                 <div>
                     <div class="line-hr"></div>
-                    <div class="faq-wrapper flex-wrap flex-space-between">
+                    <div class="faq-wrap flex-wrap flex-space-between">
                         <h5>
                             Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
                         </h5>
@@ -557,7 +552,7 @@
                 </div>
                 <div>
                     <div class="line-hr"></div>
-                    <div class="faq-wrapper flex-wrap flex-space-between">
+                    <div class="faq-wrap flex-wrap flex-space-between">
                         <h5>
                             Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
                         </h5>
@@ -571,8 +566,8 @@
     <!--footer links and language-->
     <footer>
         <div class="container-type-A">
-            <div>
-                <div class="d-inline-block list-layout">
+            <div class="flex-wrap flex-space-between">
+                <div class="d-inline-block list-wrapper">
                     <h3>Dropbox</h3>
                     <ul>
                         <li><a href="#"></a>Applicazione desktop</li>
@@ -582,7 +577,7 @@
                         <li><a href="#"></a>Funzioni</li>
                     </ul>
                 </div>
-                <div class="d-inline-block list-layout">
+                <div class="d-inline-block list-wrapper">
                     <h3>Prodotti</h3>
                     <ul>
                         <li><a href="#"></a>Applicazione desktop</li>
@@ -592,7 +587,7 @@
                         <li><a href="#"></a>Funzioni</li>
                     </ul>
                 </div>
-                <div class="d-inline-block list-layout">
+                <div class="d-inline-block list-wrapper">
                     <h3>Azienda</h3>
                     <ul>
                         <li><a href="#"></a>Applicazione desktop</li>
@@ -602,7 +597,7 @@
                         <li><a href="#"></a>Funzioni</li>
                     </ul>
                 </div>
-                <div class="d-inline-block list-layout">
+                <div class="d-inline-block list-wrapper">
                     <h3>Supporto</h3>
                     <ul>
                         <li><a href="#"></a>Applicazione desktop</li>
@@ -612,7 +607,7 @@
                         <li><a href="#"></a>Funzioni</li>
                     </ul>
                 </div>
-                <div class="d-inline-block list-layout">
+                <div class="d-inline-block list-wrapper">
                     <h3>Community</h3>
                     <ul>
                         <li><a href="#"></a>Applicazione desktop</li>
@@ -623,12 +618,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="language-selection">
+            <div class="language-selection-wrapper">
                 <div class= "line-hr"></div>
                 <div>
-                    <i class="fa-solid fa-earth-americas"></i>
+                    <div class="d-inline-block">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
                     <span>Italiano</span>
-                    <i class="fa-solid fa-angle-up"></i>
+                    <div class="d-inline-block">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
                 </div>
             </div>
         </div>
