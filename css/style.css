@@ -249,17 +249,18 @@ div.container>h1 {
     padding: 0px 5px;
 }
 
-.hero-button-layout {
-    padding: 50px 0px;
+.hero-button {
+    width: 60%;
+    background-color: var(--color-button-blue);
+    text-align: center;
+    margin: 40px 0px;
+    padding: 20px;
 }
 
-div.hero-button-layout>a {
-    padding: 15px 30px;
-}
-
-a.hero-button-layout>i {
-    color: var(--color-font-black);
+a.d-inline-block>i[class*=arrow] {
     font-size: 3rem;
+    margin: 40px 0px;
+    color: var(--color-font-black);
 }
 
 .hero-img {
@@ -331,11 +332,9 @@ div.card-infos-layout>span {
     background-color: var(--color-button-blue);
     text-align: center;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 15px;
 }
-div.card-button>a {
-   
-}
+
 
 /*footer*/
 
