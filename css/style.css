@@ -32,7 +32,7 @@ html {
 <i class="fa-solid fa-arrow-down"></i> --arrow-down
 <i class="fa-solid fa-user"></i> --user
 <i class="fa-solid fa-users"></i> --group
-<i class="fa-solid fa-building"></i> --workplace
+<i class="fa-solid fa-building"></i> --agency
 <i class="fa-solid fa-folder"></i> --folder
 <i class="fa-solid fa-share-nodes"></i> --share-nodes
 <i class="fa-solid fa-check"></i> --check
@@ -72,7 +72,6 @@ html {
 
 .flex-space-between {
     justify-content: space-between;
-    align-items: center;
     align-content: center;
 }
 
@@ -129,12 +128,12 @@ html {
 
 /*miscellaneous*/
 
-.debug {
-    border: 1px solid var(--color-font-black);
-}
-
 .d-inline-block {
     display: inline-block;
+}
+
+.d-block {
+    display: block;
 }
 
 a {
@@ -147,8 +146,8 @@ h1, h2, p, label {
 
 h1 {
     font-size: 5rem;
-    color: var(--color-font-black);
     font-weight: 600;
+    padding-bottom: 50px;
 }
 
 h2 {
@@ -157,7 +156,11 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
 }
 
 p {
@@ -168,22 +171,35 @@ li {
     list-style: none;
 }
 
+i[class*=check] {
+    color: var(--color-button-blue);
+}
+
 .debug {
     border: 2px solid var(--color-square-grey);
 }
 
-.container {
+.container-type-A {
     max-width: 60%;
     margin: 0 auto;
 }
 
-.container-padding {
-    padding: 0px 150px;
+.container-type-B {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.line-hr {
+    border-top: 2px solid var(--color-square-grey);
 }
 
 .bg-botton-blue {
     background-color: var(--color-button-blue);
     color: var(--color-bg-white) !important;
+}
+
+.underlined-link {
+    text-decoration: underline;
 }
 
 /*navbar*/
@@ -260,7 +276,7 @@ div.hero-img>img {
 /*plans*/
 
 .section-layout {
-    padding: 25px 0px;
+    padding: 30px 0px;
 }
 
 div.section-layout>h2 {
@@ -271,28 +287,54 @@ div.section-layout>h2 {
     padding-right: 60px;
 }
 
+/*plan-card*/
+
 .plan-card-wrapper {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 45px);
 }
 
-.plan-card-title {
+.plan-card-header {
     text-align: center;
     padding: 10px;
     border-bottom: 2px solid var(--color-square-grey);
 }
 
-.plan-card {
+.plan-card-body {
    padding: 40px; 
 }
 
-.plan-card-hr {
-    width: 10px;
-    border-top: 2px solid var(--color-square-grey);
-    padding: 10px;
+div.plan-card-body>div.line-hr {
+    width: 50px;
+    margin: 40px 0px 60px;
 }
 
-div.plan-card>* {
-    padding-bottom: 40px;
+.card-infos-layout {
+    padding-bottom: 50px;
+}
+
+div.card-infos-layout>h3 {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+div.card-infos-layout>span {
+    padding-bottom: 10px;
+}
+
+.card-list-icons {
+    text-indent: -0.5em;
+    margin: 15px;
+}
+
+.card-button {
+    width: 100%;
+    background-color: var(--color-button-blue);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+div.card-button>a {
+   
 }
 
 /*footer*/
@@ -315,8 +357,7 @@ div.list-layout>ul>li {
     padding-bottom: 25px;
 }
 
-.footer-hr {
-    border-top: 2px solid var(--color-square-grey);
+div.language-selection>div.line-hr {
     padding: 30px;
 }
 

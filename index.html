@@ -35,7 +35,7 @@
         <!--hero-->
         <div class="p-relative">
             <div class="bg-hero"></div>
-            <div class="container p-absolute p-hero">
+            <div class="container-type-A p-absolute p-hero">
                 <h1>
                     Tutto ciò che ti serve per il lavoro, in un unico posto
                 </h1>
@@ -64,7 +64,7 @@
     <!--middle sections-->
     <main>
         <!--plans-->
-        <section id="piani" class="container container-padding">
+        <section id="piani" class="container-type-B">
             <div class="section-layout">
                 <h2>
                     Trova il piano business che fa per te
@@ -78,61 +78,212 @@
                     <label for="radio">Fatturazione annuale</label>
                 </div> 
             </div>
-            <div class="flex-wrap flex-stretch justify-flex-start">
-                <div class="debug plan-card-wrapper">
-                    <div class="plan-card-title">
+            <!--card-structure-->
+            <div class="section-layout flex-wrap flex-stretch flex-space-between">
+                <!--card-user:single-->
+                <div class="plan-card-wrapper debug">
+                    <!--card-header-->
+                    <div class="plan-card-header">
                         <i class="fa-solid fa-user"></i>
                         <h4 class="d-inline-block">Singolo</h4>
                     </div>
-                    <div class="plan-card">
-                        <div>
+                    <!--card-body-->
+                    <div class="plan-card-body">
+                        <!--card plan type-->
+                        <div class="card-infos-layout">
                             <h3>Professional</h3>
+                            <span class="d-block">
+                                <strong>
+                                    € 12,00
+                                </strong>
+                            </span>
                             <span>
-                                € 12,00 <br>
                                 /mese
                             </span>
                         </div>
-                        <ul>
-                            <li>
+                        <ul class="card-infos-layout">
+                            <li class="card-list-icons">
                                 <i class="fa-solid fa-user"></i>
                                 1 utente
                             </li>
-                            <li>
+                            <li class="card-list-icons">
                                 <i class="fa-solid fa-folder"></i>
-                                5 TB di spazio di archiviazione sicuro 
+                                5 TB di spazio di archiviazione sicuro
                             </li>
-                            <li>
+                            <li class="card-list-icons">
                                 <i class="fa-solid fa-share-nodes"></i>
                                 Funzioni di produttività premium e condivisione file semplice e sicura
                             </li>
                         </ul>
-                        <div class="plan-card-button-layout">
+                        <div class="card-button">
                             <a class="bg-botton-blue" href="#">
                                 Prova gratis per 30 giorni
                             </a>
-                            <span class="d-inline-block">
-                                oppure
-                                <a href="#">
-                                    acquista ora
-                                </a>
-                            </span>
                         </div>
-                        <span class="plan-card-hr"></span>
+                        <span class="d-inline-block">
+                            oppure
+                            <a class="underlined-link" href="#">
+                                acquista ora
+                            </a>
+                        </span>
+                        <div class="line-hr"></div>
                         <div>
                             <h5>Punti Salienti del piano</h5>
                             <ul>
-                                <li>
+                                <li class="card-list-icons">
                                     <i class="fa-solid fa-check"></i>
                                     Invia fino a 100 GB con Dropbox Transfert
                                 </li>
-                                <li>
+                                <li class="card-list-icons">
                                     <i class="fa-solid fa-check"></i>
                                     Cartelle offline su dispositivi mobili
-                                 </li>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                <!--card-user:team-->
+                <div class="plan-card-wrapper debug">
+                    <!--card-header-->
+                    <div class="plan-card-header">
+                        <i class="fa-solid fa-users"></i></i>
+                        <h4 class="d-inline-block">Team</h4>
+                    </div>
+                    <!--card-body-->
+                    <div class="plan-card-body">
+                        <!--card plan type-->
+                        <div class="card-infos-layout">
+                            <h3>Advanced</h3>
+                            <span class="d-block">
+                                <strong>
+                                    € 18,00
+                                </strong>
+                            </span>
+                            <span>
+                                /utente/mese
+                            </span>
+                        </div>
+                        <ul class="card-infos-layout">
+                            <li class="card-list-icons">
+                                <i class="fa-solid fa-users"></i>
+                                3 o più utenti
+                            </li>
+                            <li class="card-list-icons">
+                                <i class="fa-solid fa-folder"></i>
+                                Tutto lo spazio di cui ha bisogno il tuo team
+                            </li>
+                            <li class="card-list-icons">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                Soffisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                            </li>
+                        </ul>
+                        <div class="card-button">
+                            <a class="bg-botton-blue" href="#">
+                                Prova gratis per 30 giorni
+                            </a>
+                        </div>
+                        <span class="d-inline-block">
+                            oppure
+                            <a class="underlined-link" href="#">
+                                acquista ora
+                            </a>
+                        </span>
+                        <div class="line-hr"></div>
+                        <div>
+                            <h5>Punti Salienti del piano</h5>
+                            <ul>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Nessun limite di spazio per i file 
+                                </li>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Risparmio del 50% rispetto alle iscrizioni singole
+                                </li>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Possibilità di inserire nuovi membri del team 
+                                </li>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Gestione dei permessi in base ai ruoli
+                                </li>
+                            </ul>
+                        </div>   
+                    </div>
+                </div>
+                 <!--card-user:agency-->
+                 <div class="plan-card-wrapper debug">
+                    <!--card-header-->
+                    <div class="plan-card-header">
+                        <i class="fa-solid fa-building"></i>
+                        <h4 class="d-inline-block">Azienda</h4>
+                    </div>
+                    <!--card-body-->
+                    <div class="plan-card-body">
+                        <!--card plan type-->
+                        <div class="card-infos-layout">
+                            <h3>Enterprise</h3>
+                            <span class="d-block">
+                                <strong>
+                                    Contattaci
+                                </strong>
+                            </span>
+                            <span>
+                                -
+                            </span>
+                        </div>
+                        <ul class="card-infos-layout">
+                            <li class="card-list-icons">
+                                <i class="fa-solid fa-users"></i>
+                                10 o più utenti
+                            </li>
+                            <li class="card-list-icons">
+                                <i class="fa-solid fa-folder"></i>
+                                Soluzioni personalizzabili per la tua azienda
+                            </li>
+                            <li class="card-list-icons">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                Assistenza personalizzata per aiutare gli amministratori
+                                in una gestione su larga scala
+                            </li>
+                        </ul>
+                        <div class="card-button">
+                            <a class="bg-botton-blue" href="#">
+                                Contattaci
+                            </a>
+                        </div>
+                        <span class="d-inline-block">
+                            oppure
+                            <a class="underlined-link" href="#">
+                                acquista ora
+                            </a>
+                        </span>
+                        <div class="line-hr"></div>
+                        <div>
+                            <h5>Punti Salienti del piano</h5>
+                            <ul>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Servizio assitenza 24/h
+                                </li>
+                                <li class="card-list-icons">
+                                    <i class="fa-solid fa-check"></i>
+                                    Possibilità di personalizzazione totale
+                                </li>
+                            </ul
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </section>
         <!--contact partner-->
@@ -146,7 +297,7 @@
     </main>
     <!--footer links and language-->
     <footer>
-        <div class="container">
+        <div class="container-type-A">
             <div>
                 <div class="d-inline-block list-layout">
                     <h3>Dropbox</h3>
@@ -200,7 +351,7 @@
                 </div>
             </div>
             <div class="language-selection">
-                <div class= "footer-hr"></div>
+                <div class= "line-hr"></div>
                 <div>
                     <i class="fa-solid fa-earth-americas"></i>
                     <span>Italiano</span>
