@@ -27,6 +27,7 @@ html {
     --color-square-red: #d5001f;
 	--color-sqaure-dark-blue: #0d2481;
 	--color-square-yellow: #ffd830;
+    --box-shadow: 3px 3px 10px rgba(86, 86, 86, 0.395);
 }
 
 /*icons
@@ -98,6 +99,14 @@ html {
     position: relative;
 }
 
+.p-fixed {
+    position: fixed;
+}
+
+.p-index-high {
+    z-index: 100;
+}
+
 .p-absolute {
     position: absolute;
 }
@@ -105,7 +114,7 @@ html {
 .p-hero {
     left: 0;
     right: 0;
-    top: 140px;
+    top: 165px;
 }
 
 /*miscellaneous*/
@@ -152,6 +161,10 @@ i[class*=check] {
     color: var(--color-button-blue);
 }
 
+div[class*=button]:hover {
+    box-shadow: var(--box-shadow);
+}
+
 img {
     width: 100%;
 }
@@ -182,7 +195,7 @@ img {
     border-top: 2px solid var(--color-square-grey);
 }
 
-.bg-botton-blue {
+.btn-blue {
     background-color: var(--color-button-blue);
     color: var(--color-bg-white) !important;
 }
@@ -233,6 +246,7 @@ nav {
     width: 100%;
     padding: 20px 5px;
     background-color: var(--color-bg-white );
+    box-shadow: var(--box-shadow);
 }
 
 .nav-a {
@@ -245,7 +259,6 @@ nav {
 }
 
 .nav-button-wrap {
-    padding: 3px 15px 3px 0px;
 }
 
 div.nav-button-wrap>a {
@@ -257,7 +270,7 @@ div.nav-button-wrap>a {
 .hero-bg {
     background-color: var(--color-bg-blue);
     width: 100%;
-    height: 800px;
+    height: 850px;
     margin-bottom: 200px;
 }
 
@@ -271,7 +284,7 @@ div.nav-button-wrap>a {
     background-color: var(--color-button-blue);
     text-align: center;
     margin: 40px 0px;
-    padding: 20px;
+    padding: 15px 25px;
 }
 
 a.d-inline-block>i[class*=arrow] {
@@ -476,11 +489,6 @@ div.trial-text-wrap>h2 {
     padding: 50px 0px;
 }
 
-.faq-infos {
-    display: none;
-    padding: 50px 0px;
-}
-
 .faq-wrap>i {
     padding-right: 40px;
 }
@@ -496,15 +504,6 @@ details[open]>summary>i.fa-angle-down {
 details[open]>summary>i.fa-angle-up {
     display: none;
 }
-
-.faq-wrap:hover + p.faq-infos, p.faq-infos:hover {
-    display: block;
-}
-
-
-
-
-
 
 /*footer*/
 
