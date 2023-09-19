@@ -476,9 +476,24 @@ div.trial-text-wrap>h2 {
     padding: 50px 0px;
 }
 
-div.faq-wrap>i {
+.faq-wrap>i {
     padding-right: 40px;
 }
+
+i.fa-angle-down {
+    display: none;
+}
+
+details[open]>summary>i.fa-angle-down {
+    display: block;
+}
+
+details[open]>summary>i.fa-angle-up {
+    display: none;
+}
+
+
+
 
 /*footer*/
 
