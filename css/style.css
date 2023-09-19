@@ -46,6 +46,20 @@ html {
 
 */
 
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-square-dark-grey);
+}
+
 /*flex*/
 
 .flex-wrap {
@@ -244,7 +258,7 @@ img {
 
 nav {
     width: 100%;
-    padding: 20px 5px;
+    padding: 0px 5px;
     background-color: var(--color-bg-white );
     box-shadow: var(--box-shadow);
 }
@@ -258,7 +272,13 @@ nav {
     padding: 3px 15px 3px 15px;
 }
 
-.nav-button-wrap {
+.nav-box-wrap {
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-box-wrap:hover {
+    border-bottom: 3px solid var(--color-square-dark-grey);
 }
 
 div.nav-button-wrap>a {
@@ -319,6 +339,10 @@ a.d-inline-block>i[class*=arrow] {
     width: calc(100% / 3 - 45px);
 }
 
+.plan-card-wrapper:hover {
+    box-shadow: var(--box-shadow);
+}
+
 .plan-card-header {
     text-align: center;
     padding: 10px;
@@ -357,15 +381,15 @@ div.card-text-wrap>span{
 
 /*bottom-card*/
 
-.bottom-card-wrapper {
-    padding: 40px;
+.bottom-card-wrapper:hover {
+    box-shadow: var(--box-shadow);
 }
 
 .bottom-card-text-wrap {
    width: 70%;
 }
 
-div.bottom-card-text-wrap>h5 {
+.bottom-card-text-wrap>h5 {
     padding-bottom: 40px;
 }
 
@@ -394,9 +418,12 @@ div.bottom-card-text-wrap>h5 {
     border: 2px solid var(--color-font-black);
     padding: 10px 5px;
     font-weight: 600;
-    color: var(--color-font-black);
     text-align: center;
     margin-top: 50px;
+}
+
+.contact-button-wrap>a {
+    color: var(--color-font-black);
 }
 
 /*business features*/
@@ -424,14 +451,19 @@ div.bottom-card-text-wrap>h5 {
 .brand-box {
     width: calc(100% / 2);
     height: calc(100% / 2);
+    border: 10px solid rgba(255, 255, 255, 0);
+}
+
+.brand-box:hover {
+    border: 10px solid rgba(255, 255, 255, 0.348);
 }
 
 .brand-logo-wrap {
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 }
 
-div.brand-logo-wrap>img {
+.brand-logo-wrap>img {
     filter: invert(93%) sepia(100%) saturate(29%) hue-rotate(136deg) brightness(107%) contrast(110%);
 }
 
@@ -443,16 +475,15 @@ div.brand-logo-wrap>img {
 
 .box-text-logo-wrap {
     width: 50%;
-    padding: 50px 0px;
 }
 
-div.brand-box-text-wrapper>div.line-hr {
+.brand-box-text-wrapper>div.line-hr {
     width: 100px;
     border-color: var(--color-square-dark-grey);
     padding: 20px;
 }
 
-div.brand-box-text-wrapper>div>p {
+.brand-box-text-wrapper>div>p {
     padding-bottom: 30px;
 }
 
@@ -466,7 +497,7 @@ div.brand-box-text-wrapper>div>p {
     width: 70%;
 }
 
-div.trial-text-wrap>h2 {
+.trial-text-wrap>h2 {
     color: var(--color-square-velvet);
 }
 
@@ -519,7 +550,7 @@ footer {
 }
 
 
-div.list-wrapper>ul>li {
+.list-wrapper>ul>li {
     padding-bottom: 25px;
 }
 
@@ -527,6 +558,6 @@ div.list-wrapper>ul>li {
     width: 150px;
 }
 
-div.language-selection-wrapper>div.line-hr {
+.language-selection-wrapper>div.line-hr {
     padding: 30px;
 }
