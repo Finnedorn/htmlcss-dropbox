@@ -169,12 +169,12 @@ img {
 }
 
 .container-type-A {
-    max-width: 60%;
+    max-width: 65%;
     margin: 0 auto;
 }
 
 .container-type-B {
-    max-width: 52%;
+    max-width: 55%;
     margin: 0 auto;
 }
 
@@ -476,6 +476,11 @@ div.trial-text-wrap>h2 {
     padding: 50px 0px;
 }
 
+.faq-infos {
+    display: none;
+    padding: 50px 0px;
+}
+
 .faq-wrap>i {
     padding-right: 40px;
 }
@@ -491,6 +496,12 @@ details[open]>summary>i.fa-angle-down {
 details[open]>summary>i.fa-angle-up {
     display: none;
 }
+
+.faq-wrap:hover + p.faq-infos, p.faq-infos:hover {
+    display: block;
+}
+
+
 
 
 
